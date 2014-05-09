@@ -1,3 +1,9 @@
+zram-config (0.1build1) utopic; urgency=high
+
+  * No change rebuild against upstart-job dependency removal.
+
+ -- Dimitri John Ledkov <xnox@ubuntu.com>  Fri, 09 May 2014 14:09:30 +0100
+
 zram-config (0.1) precise; urgency=low
 
   * Initial Release of zram swap configuration management.
