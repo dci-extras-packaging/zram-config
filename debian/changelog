@@ -1,3 +1,9 @@
+zram-config (0.2) utopic; urgency=medium
+
+  * Do not start/restart zram-config on installation/upgrade.
+
+ -- Dimitri John Ledkov <xnox@ubuntu.com>  Wed, 14 May 2014 18:23:37 +0100
+
 zram-config (0.1build1) utopic; urgency=high
 
   * No change rebuild against upstart-job dependency removal.
