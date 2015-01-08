@@ -2,8 +2,9 @@ Source: zram-config
 Section: utils
 Priority: extra
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Build-Depends: debhelper (>= 8.0.0)
-Standards-Version: 3.9.2
+Build-Depends: debhelper (>= 8.0.0),
+               dh-systemd
+Standards-Version: 3.9.6
 
 Package: zram-config
 Architecture: all
