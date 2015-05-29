@@ -12,7 +12,7 @@ fi
 modprobe zram $MODPROBE_ARGS
 
 # Calculate memory to use for zram (1/2 of ram)
-totalmem=`free | grep -e "^Mem:" | sed -e 's/^Mem: *//' -e 's/  *.*//'`
+totalmem=`LC_ALL=C free | grep -e "^Mem:" | sed -e 's/^Mem: *//' -e 's/  *.*//'`
 mem=$(((totalmem / 2 / ${NRDEVICES}) * 1024))
 
 # initialize the devices
