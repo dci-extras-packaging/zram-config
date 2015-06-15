@@ -1,3 +1,10 @@
+zram-config (0.5) wily; urgency=medium
+
+  * rmmod doesn't support -w anymore, ensure that the module is removed and
+    that the service stops properly (LP: #1449678)
+
+ -- Didier Roche <didrocks@ubuntu.com>  Mon, 15 Jun 2015 09:59:40 +0200
+
 zram-config (0.4) wily; urgency=medium
 
   * Call "free" command under C locale to avoid it failing under non-English
