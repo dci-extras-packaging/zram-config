@@ -7,7 +7,7 @@ Build-Depends: debhelper (>= 8.0.0),
 Standards-Version: 3.9.6
 
 Package: zram-config
-Architecture: all
+Architecture: any
 Depends: ${misc:Depends}
 Description: Upstart job to enable zram support
  This installs a simple Upstart job to enable zram support
