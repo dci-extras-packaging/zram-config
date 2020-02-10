@@ -8,6 +8,7 @@ Standards-Version: 3.9.6
 
 Package: zram-config
 Architecture: any
+Multi-Arch: same
 Depends: ${misc:Depends}
 Description: Upstart job to enable zram support
  This installs a simple Upstart job to enable zram support
